@@ -1,29 +1,43 @@
-# This is a roller coaster ticketing machine. Assignment one
-# print("Welcome to the roller coaster machine!")
-# height = int(input("What is your height? (in cm) "))
-# if height >= 120:
-#     print("You can ride the roller coaster!")
-# else:
-#     print("Sorry you have to grow taller before you can ride.")
-
-# Coding exercise 1
-# userNumber = int(input("Type down any number: "))
-# checkNumber = userNumber % 2
-# if checkNumber != 0:
-#     print("Your input is an odd number.")
-# else:
-#     print("Your input is an even number")
-
-# Nested conditional statements
-customerHeight = int(input("What is your height? (in cm) "))
-if customerHeight >= 120:
-    print("You will ride the roller coaster!")
-    age = int(input("What is your age? "))
-    if age < 12:
-        print("Your ride will cost $5")
-    elif age <= 18:
-        print("Your ride will cost only $7")
-    elif age > 18:
-        print("Your ride will cost only $12")
+# Roller coaster ticketing application _ Revision (Best Version!)
+print("Welcome to Securepoint Roller Coaster!")
+height = int(input("Please input your height (in cm): "))
+if height >= 120:
+    print("You can experience the epic ride of Securepoint Roller Coaster!")
+    age = int(input("How old are you? "))
+    if age <= 7:
+        print("Your bill will be $10")
+    elif age <= 15:
+        print("Your bill will be $20")
+    elif age < 18:
+        print("Your bill  will be $25")
+    elif age >= 18:
+        print("Your bill will be $30")
 else:
-    print("Sorry, you have to grow taller before you can ride. ")
+    print("Sorry. For your safety, you cannot ride the roller coaster. Please come back when you've grown taller")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
