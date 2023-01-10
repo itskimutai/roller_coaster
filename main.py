@@ -15,7 +15,12 @@ if height >= 120:
 else:
     print("Sorry. For your safety, you cannot ride the roller coaster. Please come back when you've grown taller")
 
-
+# userNumber = int(input("Type any number to determine whether its an odd or even number: "))
+# result = userNumber % 2
+# if result > 0:
+#     print("Your input is an odd number")
+# else:
+#     print("Your input is an even number")
 
 
 
